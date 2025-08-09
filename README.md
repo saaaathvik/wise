@@ -1,5 +1,7 @@
 # Women-targeted Abusive Comment Detection in Tamil - DravidianLangTech@NAACL 2025
 
+## Paper Link: https://aclanthology.org/2025.dravidianlangtech-1.6/
+
 ## Overview
 This project presents our submission for the **Women-targeted Abusive Comment Detection in Tamil** shared task at **DravidianLangTech@NAACL 2025**. The goal is to classify whether a given comment is abusive towards women.
 
