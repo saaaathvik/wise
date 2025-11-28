@@ -10,7 +10,7 @@ We fine-tune **Google's MuRIL**, a transformer-based multilingual model, on the 
 ## Approach
 1. **Dataset Preprocessing**: Cleaning, tokenization, and formatting for model training.
 2. **Model Fine-Tuning**: Using **MuRIL (Multilingual Representations for Indian Languages)** for Tamil text classification.
-3. **Evaluation Metrics**: 
+3. **Evaluation Metrics on Validation**: 
    - **Accuracy:** 77.76%
    - **F1-score:** 77.65%
    - **Precision & Recall:** Analyzed for model effectiveness.
