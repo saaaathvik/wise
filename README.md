@@ -37,11 +37,10 @@ The training set contains 2,790 manually annotated comments and is close to bala
 3. Remove special characters and punctuation, and normalise whitespace.
 4. Remove stop words using NLTK's English list and a manually curated Tamil list (Figure 2).
 
-<details>
-<summary>Figure 2: Tamil stop-words list</summary>
-<br>
-<img src="assets/tamil_stopwords.png" alt="Tamil stop-words list" width="600">
-</details>
+<p align="center">
+  <img src="assets/tamil_stopwords.png" alt="Tamil stop-words list" width="600">
+  <br><em>Figure 2: Tamil stop-words list</em>
+</p>
 
 **Model.** We fine-tune [`google/muril-base-cased`](https://huggingface.co/google/muril-base-cased) (Khanuja et al., 2021), a BERT model pre-trained on 17 Indian languages and their transliterated forms, using the Hugging Face Trainer API.
 
